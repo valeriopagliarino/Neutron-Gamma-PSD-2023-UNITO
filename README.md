@@ -31,14 +31,14 @@ tar –xvzf ./dataset2.zip
 
 #### DATASET 3:
 
-Data from this work: https://github.com/NeutronNeutrinoSensing/PSDwithML
+Data from: https://github.com/NeutronNeutrinoSensing/PSDwithML <br>
 Download the dataset from Dropbox: https://www.dropbox.com/sh/sklqbrd7gvq6azz/AABCExrGTyESctHbs1eQO4m6a?dl=0
 <br>put the files inside a folder named ./dataset3
 
 
 #### DATASET 4:
 
-Data from this work: https://github.com/NeutronNeutrinoSensing/PSDwithML
+Data from: https://github.com/NeutronNeutrinoSensing/PSDwithML
 
 ``` bash
 git clone https://github.com/NeutronNeutrinoSensing/PSDwithML
