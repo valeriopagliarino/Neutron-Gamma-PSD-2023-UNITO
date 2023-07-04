@@ -11,4 +11,37 @@ In this work a deep learning-based technique using Pulse-Coupled Neural Networks
 
 ### Downloading the datasets
 
-Text
+#### DATASET 1:
+Paper: https://link.springer.com/article/10.1007/s41365-022-01054-6 <br>
+Dataset: https://www.scidb.cn/en/detail?dataSetId=327d6ec5119b46cf84b61b2be0300471
+
+``` bash
+wget https://china.scidb.cn/download?fileId=e92e5dcac193d006e9dfd8096fb005ed&traceId=9407e6dc-2e78-4540-b69b-026c8437c143 -O ./dataset1.zip
+tar –xvzf ./dataset1.zip
+```
+
+#### DATASET 2:
+Dataset: https://www.scidb.cn/en/detail?dataSetId=8f91b76e2552410da914911b5d889d21
+
+``` bash
+wget https://china.scidb.cn/download?fileId=63e1e798f4ef407916cadc47&traceId=9407e6dc-2e78-4540-b69b-026c8437c143 -O ./dataset2.zip
+tar –xvzf ./dataset2.zip
+```
+
+#### DATASET 3:
+
+Data from this work: https://github.com/NeutronNeutrinoSensing/PSDwithML
+Download the dataset from Dropbox: https://www.dropbox.com/sh/sklqbrd7gvq6azz/AABCExrGTyESctHbs1eQO4m6a?dl=0
+<br>put the files inside a folder named ./dataset3
+
+
+#### DATASET 4:
+
+Data from this work: https://github.com/NeutronNeutrinoSensing/PSDwithML
+
+``` bash
+git clone https://github.com/NeutronNeutrinoSensing/PSDwithML
+mkdir dataset4
+mv ./PSDwithML/data/* ./dataset4
+rm -r ./PSDwithML
+```
