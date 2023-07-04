@@ -1,0 +1,17 @@
+Backend: Vivado
+ClockPeriod: 5
+HLSConfig:
+  Model:
+    BramFactor: 1000000000
+    Precision: fixed<16,6>
+    ReuseFactor: 1
+    Strategy: Latency
+    TraceOutput: false
+IOType: io_parallel
+InputData: null
+KerasModel: !keras_model 'model_hls/hls4ml_prj/keras_model.h5'
+OutputDir: model_hls/hls4ml_prj
+OutputPredictions: null
+Part: XC7Z020-1CLG484C
+ProjectName: myproject
+Stamp: 8dabf7cB

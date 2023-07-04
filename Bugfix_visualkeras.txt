@@ -1,0 +1,1 @@
+Go to the source code of the library (where it was installed) and navigate to visualkeras/layered.py. In line 100 of this file, change z = min(max(z), max_z) to z = min(max([z]), max_z)
