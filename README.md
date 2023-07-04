@@ -1,6 +1,6 @@
 # Low-Latency Neutron-Gamma PSD using Pulse-Coupled and Convolutional Neural Networks
 
-<b>Authors:</b> Fabrizio Chinu, Marcello Di Costanzo, Valerio Pagliarino
+<b>Authors:</b> Fabrizio Chinu, Marcello Di Costanzo, Valerio Pagliarino <br>
 All the authors equally contributed to the project.
 
 
