@@ -8,7 +8,7 @@ Project for MFN0824 Reti Neurali - Physics Dept. - University of Turin - prof. M
 In this work a deep learning-based technique using Pulse-Coupled Neural Networks (PCNN) and Convolutional Neural Networks (CNN) is applied to a neutron-gamma Pulse Shape Discrimination (PSD) task. The model is provided with a digitized signal from a scintillator coupled with SiPM. After a post-training analysis of the CNN model, the transfer learning approach is used to investigate the applicability to other particle detectors. Finally, the CNN model is compressed, quantized and deployed on Field Programmable Gate Array real-time electronics. The final model, on a balanced dataset of 9324 items, obtained an accuracy of 99.98 $\mathbf{\pm}$ 0.02 \% in binary classification with the same detector. An accuracy of 98.28 \% and 99.83 \% is obtained after the transfer learning, targeting two different particle detector.
 
 
-<img src="">
+<img src="https://github.com/valeriopagliarino/Neutron-Gamma-PSD-2023-UNITO/blob/main/figures/arc.png" width=800>
 
 ### Downloading the datasets
 
@@ -31,14 +31,14 @@ tar –xvzf ./dataset2.zip
 
 #### DATASET 3:
 
-Data from this work: https://github.com/NeutronNeutrinoSensing/PSDwithML
+Data from: https://github.com/NeutronNeutrinoSensing/PSDwithML <br>
 Download the dataset from Dropbox: https://www.dropbox.com/sh/sklqbrd7gvq6azz/AABCExrGTyESctHbs1eQO4m6a?dl=0
 <br>put the files inside a folder named ./dataset3
 
 
 #### DATASET 4:
 
-Data from this work: https://github.com/NeutronNeutrinoSensing/PSDwithML
+Data from: https://github.com/NeutronNeutrinoSensing/PSDwithML
 
 ``` bash
 git clone https://github.com/NeutronNeutrinoSensing/PSDwithML
