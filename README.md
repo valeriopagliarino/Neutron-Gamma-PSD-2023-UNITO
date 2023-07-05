@@ -94,6 +94,8 @@ pandas                            1.3.5
 ```
 #### Python3 env for HLS4ML flow
 
+<b>Recommended</b> - configuration using Docker: https://github.com/fastmachinelearning/hls4ml/blob/main/test/docker/README.md
+
 ```bash
 MarkupSafe                    2.1.3
 matplotlib                    3.5.3
